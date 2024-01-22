@@ -18,3 +18,5 @@ fragment Universalcharactername: '\\u' Hexquad | '\\U' Hexquad Hexquad;
 fragment Hexquad: HEXADECIMALDIGIT HEXADECIMALDIGIT HEXADECIMALDIGIT HEXADECIMALDIGIT;
 
 fragment HEXADECIMALDIGIT: [0-9a-fA-F];
+
+fragment FN: 'fn';

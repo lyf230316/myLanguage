@@ -14,7 +14,7 @@ topLevelDeclaration
     ;
 
 functionDeclaration
-    : 'fn' Identifier '(' parameterList? ')' '{' '}'
+    : FN Identifier '(' parameterList? ')' '{' '}'
     ;
 
 
